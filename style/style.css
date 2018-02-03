@@ -15,12 +15,8 @@ body {
 
 .layer {
     float: center;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.05);
     width: 70%;
-    box-sizing: content-box;
-    max-height: 385px;
-    border-radius: 12px;
-    min-height: 160px;
+    height: 30%;
     margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
@@ -29,7 +25,6 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-	background: rgba(255,255,255,.92);
 	display: table-column;
 	align-items: center
 }
@@ -37,6 +32,18 @@ body {
 
 .user-info{
     text-align: center;
+	outline: 0;
+    display: inline-block;
+	margin-top: 20px;
+    margin-bottom: 12px;
+	margin-left: 10px;
+    margin-right: 10px;
+	width: 80%;
+	top: 25%;
+	left: 10%;
+	border-radius: 12px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.05);
+	background: rgba(255,255,255,.92);
 }
 
 .button-list {
@@ -48,13 +55,15 @@ body {
 	margin-left: 10px;
     margin-right: 10px;
 	width: 80%;
-	position: absolute;
 	top: 25%;
 	left: 10%;
+	border-radius: 12px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.05);
+	background: rgba(255,255,255,.92);
 }
 
 .button-list a{
-    width: 100px;
+    width: 150px;
 	outline: 0;
     display: inline-block;
 	margin: 12px
@@ -62,8 +71,8 @@ body {
 }
 
 .button-list a img{
-    width: 100px;
-	height: 100px;
+    width: 150px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 }
